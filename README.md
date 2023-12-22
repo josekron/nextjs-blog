@@ -79,7 +79,7 @@ An API endpoint as a Node.js serverless function.
 
 [Docs](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
 
-In pages/api:
+In `pages/api`:
 
 ```export default function handler(req, res) {
   res.status(200).json({ text: 'Hello' });
