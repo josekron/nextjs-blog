@@ -57,7 +57,7 @@ By default, Next.js pre-renders the HTML of every page.
 
 `Function getServerSideProps`: is called at request time so its parameter (context) contains request specific parameters.
 
-```You should ask yourself: "Can I pre-render this page ahead of a user's request?" If the answer is yes, then you should choose Static Generation.```
+You should ask yourself: "Can I pre-render this page ahead of a user's request?" If the answer is yes, then you should choose Static Generation.
 
 * `Client-side Rendering`: If you do not need to pre-render the data. For internal dashboards that SEO is not relevant.
 
